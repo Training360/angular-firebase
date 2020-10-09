@@ -121,8 +121,16 @@
               "devServerTarget": "angular-firebase:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "angular-firebase"
+    }
+  },
+  "defaultProject": "angular-firebase",
+  "cli": {
+    "analytics": false
+  }
 }
